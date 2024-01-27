@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.restart{
+display: flex;
+justify-content: end;
+align-items: center;
+}
+
+.choices {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.choice {
+  height: 160px;
+  width: 160px;
+  text-align: center;
+  align-items: center;
+  line-height: 5rem;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#you,
+#comp {
+  display: inline-block;
+  text-align: center;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.msg-text{
+  padding: 10px;
+}
+
+.win {
+  background-color: green;
+}
+
+.lose {
+  background-color: red;
+}
+
+.draw {
+  background-color: gray;
+}
+
+.dark {
+  background-color: black;
+}
+
+.img-fluild {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  align-items: center;
+  line-height: 5rem;
+}

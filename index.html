@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Stone Paper Scissors</h1>
+    </div>
+    <div class="restart">
+        <button type="button" onclick="location.reload()">Restart</button>
+    </div>
+    <div class="choices">
+        <div class="choice" id="stone">
+            <img class="img-fluild" src="assets/stone.png" alt="stone">
+        </div>
+        <div class="choice" id="paper">
+            <img class="img-fluild" src="assets/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img class="img-fluild" src="assets/scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <div class="msg">
+        <div class="msg-text"></div>
+    </div>
+
+    <div class="score">
+        <span>
+            <p id="you">0</p>
+            <p>
+                <strong>Your Score</strong>
+            </p>
+        </span>
+        <span>
+            <p id="comp">0</p>
+            <p>
+                <strong>Computer Score</strong>
+            </p>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
